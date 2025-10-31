@@ -10,33 +10,13 @@
 ## プロジェクト構成
 
 ```
-Motion/
+Motion-Detection-App/
 ├── src/
 │   └── Motion-Detection-App.py  # メインアプリケーション
 ├── .gitignore                   # Gitの無視ファイル設定
 ├── README.md                    # このファイル
 └── requirements.txt             # 依存ライブラリ
 ```
-
-## セットアップ方法
-
-1.  **リポジトリをクローン**
-    ```bash
-    git clone <repository-url>
-    cd Motion
-    ```
-
-2.  **仮想環境の作成（推奨）**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # macOS/Linux
-    venv\Scripts\activate     # Windows
-    ```
-
-3.  **依存ライブラリのインストール**
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ## 実行方法
 
